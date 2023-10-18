@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: #990011;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 2px 3px #B14F1F;
+}
+
+.logo {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.logo-title {
+    color: #FFFFFF;
+    margin: 10px;
+    font-family: 'Mate SC', serif;
+}
+#logo {
+    width: 150px;
+}
+a {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0px 30px;
+
+    margin-right: 40px;
+    color: #F5CDC6;
+    font-family: 'Mate SC', serif;
+}
+
+.button-menu {
+    margin: 20px;
+    color: #F5CDC6;
+}
+
+.button-order {
+    margin: 20px;
+    padding-right: 10px;
+    color: #F5CDC6;
+}
+
+.button-order {
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.button-menu:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.button-order:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main {
+    position: relative;
+    top: 5px;
+    background-color: #FFFCF2;
+    padding-top: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0px 20px;
+}
+
+.messages {
+    position: relative;
+    padding-left: 50px;
+    width: 20%;
+    font-size: 23px;
+    font-family: 'Mate SC', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.time-location-message {
+    color: #8A0404;
+}
+
+.images {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.large {
+    width: 245px;
+    height: auto;
+}
+
+.small {
+    width: 245px;
+    height: 245px;
+}
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
