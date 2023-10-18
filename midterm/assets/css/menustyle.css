@@ -163,6 +163,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     font-size: 18px;
+    margin: 1px;
 }
 
 .aa {
@@ -185,4 +186,5 @@ a {
 .pointer:hover {
     font-weight: bold;
     color: whitesmoke;
+    cursor: pointer;
 }
